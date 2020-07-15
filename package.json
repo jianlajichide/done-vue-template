@@ -1,0 +1,23 @@
+{
+  "name": "cli",
+  "version": "1.0.0",
+  "description": "<%=description%>",
+  "main": "index.js",
+  "bin": {
+    "done": "./bin/index.js"
+  },
+  "keywords": [],
+  "author": "<%=author%>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "chalk": "^4.1.0",
+    "commander": "^5.1.0",
+    "consolidate": "^0.15.1",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^7.3.2",
+    "metalsmith": "^2.3.0",
+    "ncp": "^2.0.0",
+    "ora": "^4.0.4"
+  }
+}
